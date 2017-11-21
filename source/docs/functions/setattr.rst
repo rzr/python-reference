@@ -53,10 +53,8 @@ Example 2
 >>> # you can dynamically add a function as a method to a class
 def b(self):
     print 'bar'
-
 class Foo:
     pass
-
 f = Foo()
 print dir(f)             #['__doc__', '__module__']
 setattr(Foo, 'bar', b)
